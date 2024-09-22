@@ -1,78 +1,31 @@
 <!DOCTYPE html>
 <html>
-<style>
 
-
-* {
-  text-align: left;
-  color: rgb(34, 75, 19);
-  margin: 10px;
-  padding: 1px;
-  box-sizing: border-box;
-}
-
-h1{
-    color:rgb(23, 70, 31);
-    margin-top: 100px;
-    text-align: center;
-    background-color: #b3b5a6;
-    border:2px ;
-    color:solid rgb(71, 80, 255);
-}
-
-
-p{
-    color:blue;
-    font-size: small;
-    background-color: #d5eb80;
-  
-}
-
-
-p.center {
-  text-align: center;
-  color: rgb(236, 248, 144);
-}
-
-
-body {
-  background: rgba(99, 245, 15, 0.052) no-repeat fixed center;
-  background-image: "C:\Users\USER\Downloads\pexels-eberhardgross-443446.jpg";
-  background-attachment: scroll;
-}
-
-input[type=text] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-}
-
-</style>
+<head>
+<link rel="stylesheet" href="form.css" />
 </head>
 
-
-
 <body>
-<form>
+
 <h1>SURVEY FORM</h1>
-<p> User stories survey form</p>
-</div>
-   
+<h2> User stories survey form</h2>
+
+<form>
 <table>
 <label for="fname">First name:</label><br>
-<input type="text" id="fname"  name="fname"><br>
+<input type="text" id="fname"  name="fname" placeholder="Enter your name"><br>
 
 <label for="lname">Last name:</label>
-<input type="text" id="lname"  name="lname"><br>
+<input type="text" id="lname"  name="lname" placeholder="Enter you title"><br>
 
 <label for="Email">Email ID:</label><br>
-<input type="text" id="Email"  name="Email"><br>
+<input type="text" id="Email"  name="Email" placeholder="Enter your Email Id"><br>
 
 <label for="WE">Work Experience:</label>
-<input type="text" id="WE"  name="WE"><br>
+<input type="text" id="WE"  name="WE" placeholder="Years of total experience"><br>
 </table>
 
+</div>
 
 
 <label for="A">Are you comfortable in investing in real estate on platform without first investigating properly:</label>
@@ -84,7 +37,7 @@ input[type=text] {
 </select><br>
 
 <label for="B">Suggestions to build trusted platform:</label><br>
-<input type="text" id="summary" name="summary"><br>
+<input type="text" id="summary" name="summary" placeholder="Share your views"><br>
 
 <div>
 <p>You are ready to invest in:</p>
@@ -119,11 +72,12 @@ value="No">
 <label for="No">No</label><br>
 </div><br>
 
-<input type="submit" value="Submit" >
+<button type="button" 
+id="submitButton">Submit
+</button>
+
+
 
 </form>
-
-</div>
 </body>
-
 </html>
