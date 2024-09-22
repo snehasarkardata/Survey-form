@@ -1,0 +1,61 @@
+<style>
+
+* {
+  text-align: left;
+  color: rgb(34, 75, 19);
+  margin: 10px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+
+h1{
+    color:rgb(23, 70, 31);
+    margin-top: 100px;
+    text-align: center;
+    background-color: #b3b5a6;
+    border:2px ;
+    color:solid rgb(71, 80, 255);
+}
+
+h2{
+  color:green;
+  text-align:center;
+}
+
+p{
+    color:blue;
+    font-size: small;
+    background-color: #d5eb80;
+  
+}
+
+
+body {
+  background: rgba(99, 245, 15, 0.052) no-repeat fixed center;
+  background-image: "C:\Users\USER\Downloads\pexels-eberhardgross-443446.jpg";
+  background-attachment: scroll;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: right;
+
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+
+</style>
